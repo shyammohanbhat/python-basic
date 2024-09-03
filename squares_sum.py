@@ -1,6 +1,6 @@
 import time
 
-def sum_of_squares(numbers):
+def sum_of_squares(numbers)
     total = 0
     for num in numbers:
         total += num ** 2
@@ -9,7 +9,7 @@ def sum_of_squares(numbers):
 # Generate a large list of numbers
 numbers = list(range(1, 1000001))
 
-# Measure the performance of the unoptimized code
+# Measure the performance
 start_time = time.time()
 result = sum_of_squares(numbers)
 end_time = time.time()
